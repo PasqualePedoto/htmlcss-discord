@@ -1,0 +1,140 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* CONTENITORE */
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+    background-color: white;
+}
+
+.header-container{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 80px;
+}
+
+header{
+    height: 500px;
+    margin-top: 20px;
+}
+
+/* CONTENITORE FLEX */
+
+.flex-container{
+    display: flex;
+}
+
+/* FLEX PROPERTY */
+
+.content-evenly{
+    justify-content: space-evenly;
+}
+
+.content-between{
+    justify-content: space-between;
+}
+
+.content-center{
+    align-content: center;
+}
+
+.content-right{
+    justify-content: flex-end;
+}
+
+/* FLEX ITEM */
+
+.flex-item{
+    max-width: 50%;
+    min-height: 500px;
+}
+
+/* SETTING UL, LI, A */
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin:0 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Button */
+
+.button{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: aqua;
+    line-height: 30px;
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+.par-button{
+    margin: 0 15px;
+}
+
+/* Testo */
+
+.text-center{
+    text-align: center;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.white-text{
+    color: white;
+}
+
+/* PADDING DEL TESTO DEI BLOCCHI */
+
+.block-text{
+    padding: 50px 50px;
+}
+
+/* Flex container annidato */
+
+.language{
+    width: calc(100% / 3);
+    min-height: 300px;
+    color: #5C6EA9;
+}
+
+.link{
+    width: calc(100% / 3 * 2);
+    color: #5C6EA9;
+    min-height: 600px;
+}
+
+.grey-section{
+    background-color: #F6F6F6;
+}
+
+.column-link{
+    width: calc(100% / 4);
+}
+

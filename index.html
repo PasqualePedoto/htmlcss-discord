@@ -13,9 +13,11 @@
     <!-- Intestazione -->
     <header>
         <!-- Flex-container -->
-        <div class="flex-container content-evenly">
+        <nav class="flex-container content-evenly align-center">
             <!-- logo di discord -->
-            <div></div>
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo-discord">
+            </div>
             <!-- link utili -->
             <div>
                 <ul>
@@ -27,10 +29,10 @@
                 </ul>
             </div>
             <!-- link di accesso al proprio profilo discord -->
-            <div class="button text-center">
+            <div class="button text-center white-button">
                 <a href="#">Accedi</a>
             </div>
-        </div>
+        </nav>
 
         <!-- Titolo H1 della pagina web -->
         <div class="header-container">
@@ -42,8 +44,8 @@
             </p>
             <!-- Button -->
             <div class="text-center margin">
-                <a class="par-button" href="#">Scarica per Mac</a>
-                <a class="par-button white-text" href="#">Apri Discord sul tuo browser</a>
+                <a class="par-button white-button" href="#">Scarica per Mac</a>
+                <a class="par-button black-button white-text" href="#">Apri Discord sul tuo browser</a>
             </div>
         </div>
     </header>
@@ -51,10 +53,8 @@
     <!-- Contenuti principali -->
     <main class="container">
         <!-- Descrizione dei server -->
-        <section class="flex-container">
-            <div class="flex-container flex-item content-right block-text">
-                <img src="" alt="photo">
-            </div>
+        <section class="flex-container align-center">
+            <img class="flex-item back-image" src="img/item1.svg" alt="photo">
             <div class="flex-item block-text">
                 <h1 class="text-center">Un luogo a invito con tutto lo spazio necessario per parlare</h1>
                 <p class="text-center">
@@ -66,7 +66,7 @@
         </section>
 
         <!-- Descrizione della chat vocale -->
-        <section class="flex-container grey-section">
+        <section class="flex-container grey-section align-center">
             <div class="flex-item block-text">
                 <h1 class="text-center">Dove trovarsi è facile</h1>
                 <p class="text-center">
@@ -75,107 +75,107 @@
                     inventore quaerat corrupti adipisci?
                 </p>
             </div>
-            <div class="flex-container flex-item block-text">
-                <img src="" alt="photo">
-            </div>
+            <img class="class=flex-item back-image" src="img/item2.svg" alt="photo">
         </section>
         <hr>
 
         <!-- L'importanza della community -->
-        <section class="flex-container">
-            <div class="flex-container flex-item content-right block-text">
-                <img src="" alt="photo">
-            </div>
+        <section class="flex-container align-center">
+            <img class="flex-item back-image" src="img/item3.svg" alt="photo">
             <div class="flex-item block-text">
-                <h1 class="text-center">Dove trovarsi è facile</h1>
+                <h1 class="text-center">Da pochi a fandom</h1>
                 <p class="text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste numquam a voluptates, 
-                    iure qui assumenda quam sunt facilis. Aperiam tempore minus temporibus, quibusdam amet voluptas 
-                    inventore quaerat corrupti adipisci?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi suscipit minima exercitationem
+                    voluptates officiis incidunt tenetur tempora magnam earum vero harum, corporis eveniet, ut ullam.
+                    Repellendus id saepe reprehenderit.
                 </p>
             </div>
         </section>
         <hr>
 
         <!-- Tecnology -->
-        <section class="tech grey-section text-center">
+        <section id="tecnl" class="tech grey-section text-center">
             <h1 >Tecnologia affidabile per tenersi in contatto</h1>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptas tempora molestias quos ipsa
-                quibusdam repellendus.
+                quibusdam repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem libero alias facilis, natus quo adipisci ab vitae enim consectetur dolor dolore sapiente accusamus maxime. Labore hic harum illo pariatur amet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae perspiciatis nobis, quos veniam consequatur debitis nihil nam ullam, aliquid libero esse suscipit sapiente blanditiis inventore placeat corporis, maxime voluptatem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam odit maiores voluptatem voluptate, laboriosam consequatur ullam soluta repudiandae, commodi error. Nesciunt esse rem exercitationem tenetur necessitatibus. Nulla, doloremque maiores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem ipsa esse enim, ea necessitatibus earum saepe soluta nihil perspiciatis id illum, consequuntur ratione deleniti omnis doloribus harum iure repudiandae.
             </p>
-            <img src="" alt="photo">
-            <h4>Pronto a iniziare la tua avventura?</h3>
-            <div class="button text-center">
-                <a href="#">Scarica per Mac</a>
-            </div>
-            <hr>
-        </section>
-
-        <!-- Info e link utili, sezione flexbox-->
-        <section class="flex-container">
-            <!-- Selezione della lingua e i vari contatti -->
-            <div class="language">
-                <h3>Il tuo posto per parlare</h3>
-                <div></div><!--select language-->
-                <div>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+            <img src="img/item4-big.svg" alt="photo">
+            <div class="back-stars">
+                <h4>Pronto a iniziare la tua avventura?</h3>
+                <div class="text-center">
+                    <a class="third-section-button" href="#">Scarica per Mac</a>
                 </div>
-            </div>
-            <!-- Link utili, flex container annidato -->
-            <div  class="flex-container link">
-                <div class="column-link">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="column-link">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="column-link">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="column-link">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
             </div>
         </section>
     </main>
-    <hr>
+        
+        <!-- Piè di pagina, flexbox -->
+        <footer>
+            <section class="flex-container">
+                <!-- Selezione della lingua e i vari contatti -->
+                <div class="language flex-item">
+                    <h3>Il tuo posto per parlare</h3>
+                    <div>
+                        <img src="img/ita.png" alt="italy">
+                        <span>Italiano</span>
+                    </div>
+                    <div></div>
+                </div>
+                <!-- Link utili, flex container annidato -->
+                <div  class="flex-container link flex-item">
+                    <div class="column-link flex-item">
+                        <h5>Prodotto</h5>
+                        <ul class="black-text ">
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
+                    <div class="column-link flex-item">
+                        <h5>Compagnia</h5>
+                        <ul class="black-text">
+                            <li>Chi siamo</li>
+                            <li>Lavora con noi</li>
+                        </ul>
+                    </div>
+                    <div class="column-link flex-item">
+                        <h5>Risorse</h5>
+                        <ul class="black-text">
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
+                    <div class="column-link flex-item">
+                        <h5>Norme</h5>
+                        <ul class="black-text">
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                        </ul>
+                    </div>
 
-    <!-- Piè di pagina, flexbox -->
-    <footer class="flex-container content-between container">
-        <!-- logo discord -->
-        <div>
-            <img src="" alt="photo">
-        </div>
-        <!-- link per registrarti su discord -->
-        <div class="button text-center">
-            <a href="#">Registrati</a>
-        </div>
-    </footer>
+                </div>
+            </section>
+
+            <hr id="hr-special">
+            <!-- logo discord -->
+            <div class="flex-container container content-between pie">
+                <div>
+                    <img src="img/logo.svg" alt="photo">
+                </div>
+                <!-- link per registrarti su discord -->
+                <div class="button text-center">
+                    <a href="#">Registrati</a>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

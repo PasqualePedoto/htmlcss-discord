@@ -22,19 +22,38 @@ h1{
 
 .header-container{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     margin-top: 80px;
 }
 
 header{
-    height: 500px;
-    margin-top: 20px;
+    min-height: 500px;
+    padding-top: 20px;
+    background-image: url('img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4{
+    margin: 10px 0;
+}
+
+main section{
+    margin: 50px 0;
+}
+
+/* Immagini */
+
+.back-image{
+    width: 550px;
+    height: 550px;
 }
 
 /* CONTENITORE FLEX */
 
 .flex-container{
     display: flex;
+    align-items: flex-start;
 }
 
 /* FLEX PROPERTY */
@@ -55,11 +74,15 @@ header{
     justify-content: flex-end;
 }
 
+.align-center{
+    align-items: center;
+}
+
 /* FLEX ITEM */
 
 .flex-item{
-    max-width: 50%;
-    min-height: 500px;
+    width: 50%;
+    min-height: 300px;
 }
 
 /* SETTING UL, LI, A */
@@ -71,11 +94,15 @@ ul{
 li{
     display: inline;
     margin:0 10px;
-    color: white;
+}
+
+li > a{
+    color: #fff;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 /* Button */
@@ -88,12 +115,24 @@ a{
     line-height: 30px;
 }
 
+.white-button{
+    background-color: #fff;
+}
+
+.black-button{
+    background-color: black;
+}
+
 .margin{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .par-button{
     margin: 0 15px;
+    min-height: 50px;
+    line-height: 30px;
+    width: 100px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 /* Testo */
@@ -112,8 +151,9 @@ p{
 
 /* PADDING DEL TESTO DEI BLOCCHI */
 
-.block-text{
-    padding: 50px 50px;
+.black-text{
+    color: black;
+    display: block;
 }
 
 /* Flex container annidato */
@@ -138,3 +178,54 @@ p{
     width: calc(100% / 4);
 }
 
+.back-stars{
+    background-image: url('img/stars.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.third-section-button{
+    width: 150px;
+    height: 50px;
+    background-color: #255EE9;
+    color: #F6F6F6;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272A;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+footer li{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    color: #F6F6F6;
+    margin-top: 15px;
+}
+
+footer section{
+    padding: 100px;
+}
+
+.pie{
+    background-color: #23272A;
+    padding: 5px 100px;
+}
+
+#hr-special{
+    margin: 0 100px;
+}
+
+#tecnl{
+    margin-top: 0;
+    padding-top: 50px;
+}
